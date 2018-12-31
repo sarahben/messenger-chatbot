@@ -20,8 +20,8 @@
     "request": "^2.88.0"
   },
   "engines": {
-    "node": "~10.15.0",
-    "npm": "6.4.1"
+    "node": "10.15.x",
+    "npm": "6.4.x"
   },
   "bugs": {
     "url": "https://github.com/fbsamples/messenger-platform-samples/issues"
