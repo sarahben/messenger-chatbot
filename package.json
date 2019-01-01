@@ -1,5 +1,5 @@
 {
-  "name": "facebook_webhook",
+  "name": "webhook",
   "version": "1.0.0",
   "description": "An example webhook for Facebook Messenger quick start tutorial.",
   "main": "app.js",
