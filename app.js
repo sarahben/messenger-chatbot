@@ -6,12 +6,12 @@ const
   request = require('request'),
   express = require('express'),
   body_parser = require('body-parser'),
-  // app = express().use(body_parserbody_parser.json()); // creates express http server
+  // app = express().use(body_parser.json()); // creates express http server
 
   app.set('port', (process.env.PORT || 5000))
 
   // Process application/x-www-form-urlencoded
-  app.use(body_parserbody_parser.urlencoded({extended: false}))
+  app.use(body_parser.urlencoded({extended: false}))
 
   // Process application/json
   app.use(body_parser.json())
